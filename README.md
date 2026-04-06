@@ -35,7 +35,9 @@ Output: case_id | time_sec | anomaly_score  (float, 0–1)
 > Simulated against 5% per-patient proxy labels. Real score available only after leaderboard submission.
 
 ---
+## 📊 Anomaly Detection Dashboard
 
+![Anomaly Dashboard](output/anomaly_dashboard.png)
 ## Dataset
 
 | Split | Rows | Patients | case_id Range |
@@ -147,7 +149,7 @@ submission.csv  (case_id | time_sec | anomaly_score)
 Go to [colab.research.google.com](https://colab.research.google.com) and create a new notebook. Set runtime to **GPU** (Runtime → Change runtime type → T4 GPU).
 
 ### Step 2 — Upload the notebook
-Upload `colab_winner.py` or paste each cell sequentially.
+Upload or paste each cell sequentially.
 
 ### Step 3 — Upload data (Cell 1)
 ```python
