@@ -22,16 +22,6 @@ Output: case_id | time_sec | anomaly_score  (float, 0–1)
 
 ---
 
-## Leaderboard Scoring
-
-| Metric | Weight | Target | Our Estimate |
-|--------|--------|--------|-------------|
-| ROC-AUC | 40% | > 93.43% | **~97.3%** |
-| PR-AUC | 30% | > 81.85% | ~74.9% |
-| F1-Score | 15% | > 73.15% | ~66.9% |
-| Recall | 15% | > 71.14% | ~60.2% |
-| **Composite** | — | **> 83.57%** | **~80.5%** |
-
 > Simulated against 5% per-patient proxy labels. Real score available only after leaderboard submission.
 
 ---
